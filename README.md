@@ -7,9 +7,12 @@ Now from next time onwards every call should be made with the auth token to make
 
 # Workflow
 Theree different service are there, 
-ApiService: Playing a role as a gateway, all kind off authentication,authorization,routing,error handling etc. are done here.
-AuthService: Authentication of of user detail are done here and JWT token is signed. [We have to work more on this as no such basic authentication we are doing from the server side only generating the JWT token.]
-PulseService: This is the actual srvices that serves our need for frontend React application. For demo purpose we have created one service to get all the organizations. 
+# ApiService: 
+Playing a role as a gateway, all kind off authentication,authorization,routing,error handling etc. are done here.
+# AuthService: 
+Authentication of user detail are done here and JWT token is signed. [We have to work more on this as no such basic authentication we are doing from the server side only generating the JWT token.]
+# PulseService: 
+This is the actual srvices that serves our need for frontend React application. For demo purpose we have created one service to get all the organizations. 
 
 # Next What?
 Database integration and fetch pulse related data and KPI assets.
